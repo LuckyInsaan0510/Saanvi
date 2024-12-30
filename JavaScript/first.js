@@ -1,1 +1,0 @@
-console.log(Number.parseFloat("3.14"))
