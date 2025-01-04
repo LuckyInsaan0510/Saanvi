@@ -1,6 +1,7 @@
-const num1 = prompt("Enter first number:");       // First number
-const num2 = prompt("Enter second number: ");        // Second number
-let operator = prompt("Enter operater: ")  // Operator (change this to test other operations)
+/*Simple calculator
+const num1 = prompt("Enter first number:");
+const num2 = prompt("Enter second number: ");
+let operator = prompt("Enter operater: ")
 
 switch (operator) {
   case '+':
@@ -30,3 +31,15 @@ switch (operator) {
     console.log('Invalid operator. Please use +, -, *, or /.');
     break;
 }
+    */
+
+/*making a simple object
+const profile={
+  username: "Nezuko_Kamado",
+  followers: 500000,
+  posts: 200,
+  isFollow: true,
+  bio: "Hello, I am Nezuko Kamado and I am Tanjiro's little sister. I am also a demon with blood demon art of exploding blood."
+}
+console.log(profile);
+*/
