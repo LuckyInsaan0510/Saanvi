@@ -43,3 +43,15 @@ const profile={
 }
 console.log(profile);
 */
+
+//Template literals
+let num=18;
+console.log(`I am ${num} years old.`);
+
+/*string methods - 1
+let str="Saanvi Kumbhare"
+console.log(str.length);
+for(let i=0; i<str.length; i++){
+  console.log(str[i].toUpperCase());
+}
+*/
