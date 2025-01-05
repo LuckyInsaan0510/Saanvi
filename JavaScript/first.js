@@ -44,9 +44,10 @@ const profile={
 console.log(profile);
 */
 
-//Template literals
+/*Template literals
 let num=18;
 console.log(`I am ${num} years old.`);
+*/
 
 /*string methods - 1
 let str="Saanvi Kumbhare"
