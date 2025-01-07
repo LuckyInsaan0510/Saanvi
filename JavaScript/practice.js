@@ -37,6 +37,7 @@ switch (fruits){
 */
 
 /*userID exmaple
+
 const prompt=require('prompt-sync')();
 
 let username=prompt("Enter your username without spaces: ");
