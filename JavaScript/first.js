@@ -32,7 +32,7 @@ switch (operator) {
     console.log('Invalid operator. Please use +, -, *, or /.');
     break;
 }
-    
+
 */
 
 /*making a simple object
