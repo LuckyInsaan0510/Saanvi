@@ -1,4 +1,5 @@
 /*Simple calculator using switch case
+
 const num1 = prompt("Enter first number:");
 const num2 = prompt("Enter second number: ");
 let operator = prompt("Enter operater: ")
@@ -31,9 +32,11 @@ switch (operator) {
     console.log('Invalid operator. Please use +, -, *, or /.');
     break;
 }
+    
 */
 
 /*making a simple object
+
 const profile={
   username: "Nezuko_Kamado",
   followers: 500000,
@@ -42,19 +45,25 @@ const profile={
   bio: "Hello, I am Nezuko Kamado and I am Tanjiro's little sister. I am also a demon with blood demon art of exploding blood."
 }
 console.log(profile);
+
 */
 
 /*Template literals
+
 let num=18;
 console.log(`I am ${num} years old.`);
+
 */
 
-/*
+/*Escape characters
+
 console.log("Saanvi\nKumbhare")             /n is used for new line
 console.log("Saanvi\tKumbhare")             /t is used for tab space
+
 */
 
 /*String methods
+
 let str="Saanvi Kumbhare"
 console.log(str.length);
 for(let i=0; i<str.length; i++){
@@ -71,4 +80,5 @@ console.log(str2.charAt(3));
 console.log("the string remains the same, as strings are immutable");
 console.log(str2);
 console.log(str3);
+
 */
