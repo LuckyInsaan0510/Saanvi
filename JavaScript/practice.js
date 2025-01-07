@@ -36,12 +36,12 @@ switch (fruits){
 
 */
 
-/*userID exmaple
+/*UserID example
 
 const prompt=require('prompt-sync')();
 
 let username=prompt("Enter your username without spaces: ");
-userID=`@${username}${username.length}`;
+userID="@"+username.toLowerCase()+username.length;
 console.log(userID);
 
 */
