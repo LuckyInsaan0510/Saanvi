@@ -64,21 +64,39 @@ console.log("Saanvi\tKumbhare")             /t is used for tab space
 
 /*String methods
 
-let str="Saanvi Kumbhare"
+let str="Saanvi Kumbhare";
+console.log(str);
 console.log(str.length);
 for(let i=0; i<str.length; i++){
   console.log(str[i].toUpperCase());
 }
-let str2="   Hello World "
+let str2="   Hello World ";
+console.log(str2);
 console.log(str2.toLowerCase());
 console.log(str2.trim());
 let str3= "0123456789";
+console.log(str3);
 console.log(str3.slice(2,5));
 console.log(str2.concat(str3));
 console.log(str2.replace("Hello","Hi"));
 console.log(str2.charAt(3));
+let str4="Hello World by World";
+console.log(str4);
+console.log(str4.includes("Hello"));
+console.log(str4.startsWith("Hello"));
+console.log(str4.endsWith("World"));
+console.log(str4.indexOf("World"));
+console.log(str4.indexOf("x"));
+console.log("returns -1 as x is not present in the string");
+let firstOccurence=str4.indexOf("World");
+let secondOccurence=str4.indexOf("World",firstOccurence+1);
+console.log(firstOccurence);
+console.log(secondOccurence);
+console.log(str4.replaceAll("World","Universe"));
 console.log("the string remains the same, as strings are immutable");
+console.log(str);
 console.log(str2);
 console.log(str3);
+console.log(str4);
 
 */
