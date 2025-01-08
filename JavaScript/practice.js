@@ -45,3 +45,16 @@ userID="@"+username.toLowerCase()+username.length;
 console.log(userID);
 
 */
+
+/*for the given array, calculate the average of the elements
+
+let sum=0;
+let marks=[85,97, 44, 37, 76, 60];
+for(i=0; i<marks.length; i++){
+    sum=sum+marks[i];
+}
+console.log("Sum: " + sum);
+average=sum/marks.length;
+console.log("Average: " + average);
+
+*/
