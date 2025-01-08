@@ -100,3 +100,21 @@ console.log(str3);
 console.log(str4);
 
 */
+
+/*Array printing using for loop 
+
+let heroes=["ironman","captain america","thor","black widow","hulk"];
+for(let i=0; i<heroes.length; i++){
+  console.log(heroes[i]);
+}
+
+*/
+
+/*Array printing using for of loop
+
+let heroes=["ironman","captain america","thor","black widow","hulk"];
+for(let hero of heroes){
+  console.log(hero);
+}
+  
+*/
