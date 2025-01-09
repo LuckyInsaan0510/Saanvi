@@ -58,3 +58,30 @@ average=sum/marks.length;
 console.log("Average: " + average);
 
 */
+
+/*for the given array, all items have an offer of 10% OFF on them. Change the array to store final price after applying offer
+
+let price=[250,645,300,900,50];
+for(i=0; i<price.length; i++){
+    console.log("Price: " + price[i]);
+    discount=price[i]/10;
+    discountedPrice=price[i]-discount;
+    console.log("Discounted price: " + discountedPrice);
+}
+
+*/
+
+/*create an array to store companies -> "Bloomborg", "Microsoft", "Uber", "Google", "IBM", "Netflix".
+a. Remove the first company from the array
+b. Remove Uber and Add Ola to the array
+c. Add amazon at the end 
+
+let companies=["Bloomborg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+//companies.shift(0,1)
+//console.log(companies);
+//(companies.splice(2,1,"Ola"));
+//console.log(companies);
+//companies.push("Amazon");
+//console.log(companies);
+
+*/

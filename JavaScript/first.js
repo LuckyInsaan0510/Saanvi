@@ -74,25 +74,29 @@ let str2="   Hello World ";
 console.log(str2);
 console.log(str2.toLowerCase());
 console.log(str2.trim());
+
 let str3= "0123456789";
 console.log(str3);
 console.log(str3.slice(2,5));
 console.log(str2.concat(str3));
 console.log(str2.replace("Hello","Hi"));
 console.log(str2.charAt(3));
+
 let str4="Hello World by World";
 console.log(str4);
+console.log(str4.replaceAll("World","Universe"));
 console.log(str4.includes("Hello"));
 console.log(str4.startsWith("Hello"));
 console.log(str4.endsWith("World"));
 console.log(str4.indexOf("World"));
 console.log(str4.indexOf("x"));
 console.log("returns -1 as x is not present in the string");
+
 let firstOccurence=str4.indexOf("World");
 let secondOccurence=str4.indexOf("World",firstOccurence+1);
 console.log(firstOccurence);
 console.log(secondOccurence);
-console.log(str4.replaceAll("World","Universe"));
+
 console.log("the string remains the same, as strings are immutable");
 console.log(str);
 console.log(str2);
@@ -117,4 +121,50 @@ for(let hero of heroes){
   console.log(hero);
 }
   
+*/
+
+/*Array methods
+
+let fruits=["apple","banana","orange","pomegranate","papaya"];
+fruits.push("kiwi");                  //push() method adds an element at the end of the array
+console.log(fruits);
+fruits.pop();                         //pop() method removes the last element from the array
+console.log(fruits.toString());       //toString() method converts an array to a string
+let marks=[85,97,44,37,76,60];
+console.log(marks.toString());
+
+marvel_heroes=["Ironman","Spiderman","Thor"];
+dc_heroes=["Batman","Superman"];
+indian_heroes=["Shaktiman","Krrish"];
+console.log(marvel_heroes);
+console.log(dc_heroes);
+console.log(indian_heroes);
+
+heroes=marvel_heroes.concat(dc_heroes,indian_heroes);    //concatenating arrays
+console.log(heroes);
+
+marvel_heroes.unshift("Antman");             //unshift() method adds an element at the beginning of the array
+console.log(marvel_heroes);
+
+let val = marvel_heroes.shift();                    //shift() method removes the first element from the array
+console.log(val);
+console.log(marvel_heroes);
+
+let arr=[1,2,3,4,5,6,7];
+arr.splice(2,0,8,9);                 //splice() method adds elements at the specified index
+//splice(index, no. of elements to be removed, elements to be added)
+console.log(arr);
+
+let arr2=[11,12,13,14,15,16,17];
+arr2.splice(2,2,8,9);                 //splice() method removes elements at the specified index
+console.log(arr2);
+
+let arr3=[21,22,23,24,25,26,27];
+arr3.splice(2,2,101);                 //splice() method removes elements at the specified index
+console.log(arr3);
+
+let arr4=[31,32,33,34,35,36,37];
+arr4.splice(2,2);                 //splice() method removes elements at the specified index
+console.log(arr4);
+
 */
