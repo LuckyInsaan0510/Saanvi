@@ -168,3 +168,70 @@ arr4.splice(2,2);                 //splice() method removes elements at the spec
 console.log(arr4);
 
 */
+
+/*Function declaration
+
+function myFunction(){
+  console.log("Hello World");
+  console.log("We are learning JavaScript");
+}
+myFunction();
+
+function myFunction(msg){
+  console.log(msg);
+}
+myFunction("I love JS");
+
+const prompt=require('prompt-sync')();
+function myFunction(msg, n){
+  msg=prompt("Enter a message: ");
+  n=prompt("Enter a number: ");
+  for(let i=0; i<n; i++){
+    console.log(msg);
+  }
+}
+myFunction();
+
+const prompt=require('prompt-sync')();
+function myFunction(num1,num2){
+  num1=prompt("Enter first number: ");
+  num2=prompt("Enter second number: ");
+  console.log(`Sum: ${num1} + ${num2} = ${num1+num2}`);
+};
+myFunction();
+
+function sum(a,b){
+  s=a+b;
+  return s;
+}
+let val = sum(5,6);
+console.log(val);
+
+//Function variables are local variables (block scoped) and cannot be accessed outside the function
+
+*/
+
+/*Arrow function
+
+const prompt=require('prompt-sync')();
+const arrowSum=(a,b)=>{
+  a=parseInt(prompt("Enter first number: "));
+  b=parseInt(prompt("Enter second number: "));
+  console.log(a+b);
+}
+arrowSum();
+
+const prompt=require('prompt-sync')();
+const multi=(num1,num2)=>{
+  num1=parseInt(prompt("Enter first number: "));
+  num2=parseInt(prompt("Enter second number: "));
+  console.log(num1*num2);
+}
+multi();
+
+const printHello=()=>{
+  console.log("Hello World");
+}
+printHello();
+
+*/

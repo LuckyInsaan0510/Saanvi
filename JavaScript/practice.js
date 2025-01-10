@@ -85,3 +85,41 @@ let companies=["Bloomborg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 //console.log(companies);
 
 */
+
+/*Create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in it
+
+const prompt=require('prompt-sync')();
+function vowelCount(str,str1,count=0){
+    str=prompt("Enter a string: ");
+    str1=str.toLowerCase();
+    for(let i=0; i<str1.length; i++){
+        if(str1[i] === "a" || str1[i] === "e" || str1[i] === "i" || str1[i] === "o" || str1[i] === "u"){
+            console.log(str1[i]);
+            count=count+1;
+        }
+    }
+    console.log("Number of vowels: " + count);
+    return str1;
+}
+vowelCount();
+
+*/
+
+/*Create an arrow function to perform the same task
+
+const prompt=require('prompt-sync')();
+const vowelCount=(str,str1,count=0)=>{
+    str=prompt("Enter a string: ");
+    str1=str.toLowerCase();
+    for(let i=0; i<str1.length; i++){
+        if(str1[i] === "a" || str1[i] === "e" || str1[i] === "i" || str1[i] === "o" || str1[i] === "u"){
+            console.log(str1[i]);
+            count=count+1;
+        }
+    }
+    console.log("Number of vowels: " + count);
+    return str1;
+}
+vowelCount();
+
+*/
