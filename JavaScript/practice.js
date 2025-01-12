@@ -88,18 +88,24 @@ let companies=["Bloomborg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
 /*Create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in it
 
-const prompt=require('prompt-sync')();
-function vowelCount(str,str1,count=0){
-    str=prompt("Enter a string: ");
-    str1=str.toLowerCase();
-    for(let i=0; i<str1.length; i++){
-        if(str1[i] === "a" || str1[i] === "e" || str1[i] === "i" || str1[i] === "o" || str1[i] === "u"){
-            console.log(str1[i]);
-            count=count+1;
-        }
+const prompt = require("prompt-sync")();
+function vowelCount(str, str1, count = 0) {
+  str = prompt("Enter a string: ");
+  str1 = str.toLowerCase();
+  for (let i = 0; i < str1.length; i++) {
+    if (
+      str1[i] === "a" ||
+      str1[i] === "e" ||
+      str1[i] === "i" ||
+      str1[i] === "o" ||
+      str1[i] === "u"
+    ) {
+      console.log(str1[i]);
+      count = count + 1;
     }
-    console.log("Number of vowels: " + count);
-    return str1;
+  }
+  console.log("Number of vowels: " + count);
+  return str1;
 }
 vowelCount();
 
@@ -107,19 +113,61 @@ vowelCount();
 
 /*Create an arrow function to perform the same task
 
-const prompt=require('prompt-sync')();
-const vowelCount=(str,str1,count=0)=>{
-    str=prompt("Enter a string: ");
-    str1=str.toLowerCase();
-    for(let i=0; i<str1.length; i++){
-        if(str1[i] === "a" || str1[i] === "e" || str1[i] === "i" || str1[i] === "o" || str1[i] === "u"){
-            console.log(str1[i]);
-            count=count+1;
-        }
+const prompt = require("prompt-sync")();
+const vowelCount = (str, str1, count = 0) => {
+  str = prompt("Enter a string: ");
+  str1 = str.toLowerCase();
+  for (let i = 0; i < str1.length; i++) {
+    if (
+      str1[i] === "a" ||
+      str1[i] === "e" ||
+      str1[i] === "i" ||
+      str1[i] === "o" ||
+      str1[i] === "u"
+    ) {
+      console.log(str1[i]);
+      count = count + 1;
     }
-    console.log("Number of vowels: " + count);
-    return str1;
-}
+  }
+  console.log("Number of vowels: " + count);
+  return str1;
+};
 vowelCount();
 
 */
+
+/*For a given array of numbers, print the square of each value using the forEach loop method and the map method
+
+const prompt=require('prompt-sync')();
+let input=prompt("Enter numbers seperated by commas: ");
+let arr = input.split(',').map(Number); // Split the input string and convert each element to a number
+arr.forEach((val)=>{
+  newVal=val**2;
+  val=newVal;
+  console.log(val);
+})
+  
+*/
+
+/*For a given array of numbers, print the square of each value using the map method and forEach method and store the squared values in a new array
+
+const prompt=require('prompt-sync')();
+let input=prompt("Enter numbers seperated by commas: ");
+let arr = input.split(',').map(Number);     // Split the input string and convert each element to a number
+let squares=[]; // Array to store the squared values
+
+let calcSquare=(num)=>{
+    let newVal=num**2;
+    num=newVal;
+    squares.push(newVal);   // Add the squared value to the squares array
+}
+arr.forEach(calcSquare);
+console.log("Array of squares: ", squares); // Print the whole array of squares
+
+*/
+
+let marks = [85, 97, 44, 37, 96, 90];
+const output = marks.filter((val) => {
+  return val > 90;
+});
+console.log(output);

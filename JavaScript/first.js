@@ -66,29 +66,29 @@ console.log("Saanvi\tKumbhare")             /t is used for tab space
 
 let str="Saanvi Kumbhare";
 console.log(str);
-console.log(str.length);
+console.log(str.length);  //length of the string
 for(let i=0; i<str.length; i++){
-  console.log(str[i].toUpperCase());
+  console.log(str[i].toUpperCase());  //str[i] is used to access the ith character of the string    //toUpperCase() method converts the character to uppercase
 }
 let str2="   Hello World ";
 console.log(str2);
-console.log(str2.toLowerCase());
-console.log(str2.trim());
+console.log(str2.toLowerCase());  //toLowerCase() method converts the string to lowercase
+console.log(str2.trim());        //trim() method removes the extra spaces from the string
 
 let str3= "0123456789";
 console.log(str3);
-console.log(str3.slice(2,5));
-console.log(str2.concat(str3));
-console.log(str2.replace("Hello","Hi"));
-console.log(str2.charAt(3));
+console.log(str3.slice(2,5));   //slice() method extracts a part of the string
+console.log(str2.concat(str3)); //concat() method concatenates two strings
+console.log(str2.replace("Hello","Hi"));  //replace() method replaces a part of the string with another string
+console.log(str2.charAt(3));  //charAt() method returns the character at the specified index
 
 let str4="Hello World by World";
 console.log(str4);
-console.log(str4.replaceAll("World","Universe"));
-console.log(str4.includes("Hello"));
-console.log(str4.startsWith("Hello"));
-console.log(str4.endsWith("World"));
-console.log(str4.indexOf("World"));
+console.log(str4.replaceAll("World","Universe")); //replaceAll() method replaces all the occurences of a string with another string
+console.log(str4.includes("Hello"));  //includes() method checks if a string is present in another string
+console.log(str4.startsWith("Hello"));  //startsWith() method checks if a string starts with a particular string
+console.log(str4.endsWith("World"));  //endsWith() method checks if a string ends with a particular string
+console.log(str4.indexOf("World")); //indexOf() method returns the index of the first occurence of a string
 console.log(str4.indexOf("x"));
 console.log("returns -1 as x is not present in the string");
 
@@ -233,5 +233,52 @@ const printHello=()=>{
   console.log("Hello World");
 }
 printHello();
+
+*/
+
+/*Use of forEach method
+
+let arr=[1,2,3,4,5];
+arr.forEach(function printVal(val){
+  console.log(val);
+})
+  
+let cities=["Mumbai","Delhi","Bangalore","Chennai","Kolkata"];
+cities.forEach((val, i, cities)=>{
+  console.log(val.toUpperCase(), i , cities);
+})
+  
+*/
+
+/*Array methods
+
+let arr = [1, 2, 3, 4, 5];
+let newArr = arr.map((val) => {     //map() method creates a new array with the results of calling a function for every array element
+  return val * 2;
+});
+console.log(newArr);
+
+let arr = [1, 2, 3, 4, 5];
+arr.map((val)=>{
+  console.log(val);
+})
+
+let arr = [1, 2, 3, 4, 5];
+let newArr=arr.filter((val)=>{     //filter() method creates a new array with all elements that pass the test implemented by the provided function
+  return val%2===0;
+});
+console.log(newArr);
+
+let arr = [1, 2, 3, 4, 5];
+const output=arr.reduce((res,curr)=>{   //reduce() method reduces the array to a single value
+  return res+curr;
+});
+console.log(output);
+
+let arr = [34, 56, 78, 23, 89, 67, 45];
+const output=arr.reduce((res,curr)=>{
+  return res>curr?res:curr;
+});
+console.log(output);
 
 */
