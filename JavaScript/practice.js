@@ -166,8 +166,33 @@ console.log("Array of squares: ", squares); // Print the whole array of squares
 
 */
 
+/*We are given array of marks of students. Filter out the marks of students that scored 90+. 
+
 let marks = [85, 97, 44, 37, 96, 90];
-const output = marks.filter((val) => {
+const toppers = marks.filter((val) => {
   return val > 90;
 });
-console.log(output);
+console.log(toppers);
+
+*/
+
+/*Take a number n as input from the user. Create an array of number from 1 to n.
+Use the reduce method to calculate the sum of the array elements and the product of the array elements
+
+const prompt = require("prompt-sync")();
+let n = prompt("Enter a number: ");
+let nums = [];
+for (let i = 1; i <= n; i++) {
+  nums.push(i);
+}
+console.log(nums.toString());
+const sum = nums.reduce((res, curr) => {
+  return res + curr;
+});
+console.log(`Sum: ${sum}`);
+const factorial = nums.reduce((res, curr) => {
+  return res * curr;
+});
+console.log(`Factorial: ${factorial}`);
+
+*/
