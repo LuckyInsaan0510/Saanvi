@@ -196,3 +196,32 @@ const factorial = nums.reduce((res, curr) => {
 console.log(`Factorial: ${factorial}`);
 
 */
+
+/* Write a code to calculate your salary now if your increment is 10%
+
+const prompt = require("prompt-sync")();
+let increment;
+let total_years_of_job = parseInt(
+  prompt("How many years of job experience do you have? "),
+);
+let salary_at_first_year = parseInt(
+  prompt("Enter your salary at first year: "),
+);
+let salary_now;
+for (let i = 1; i <= total_years_of_job; i++) {
+  increment = salary_at_first_year * 0.1;
+  salary_at_first_year = salary_at_first_year + increment;
+}
+salary_now = salary_at_first_year;
+console.log("Your salary now if your increment is 10%: ", salary_now);
+
+*/
+
+/*Sort an array in ascending order using the sort method
+
+let arr = [34, 56, 78, 23, 89, 67, 45];
+let new_arr = arr.slice(); // Create a copy of the original array
+new_arr.sort((a, b) => a - b); // Sort the array in ascending order
+console.log(new_arr);
+
+*/
