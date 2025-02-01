@@ -1,0 +1,17 @@
+.hero {
+  height: 80vh;
+  background: url("/path-to-your-image.jpg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #00aaff;
+  border: none;
+  cursor: pointer;
+}
