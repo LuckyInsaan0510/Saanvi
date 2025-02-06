@@ -7,7 +7,8 @@ function App() {
       <div>
         <h1>Hello, React!</h1>
         <p>i am saanvi welcome to my first page</p>
-        <Greeting />
+        <Greeting name="Alice" />
+        <Greeting name="Bob" />
       </div>
     </>
   );
