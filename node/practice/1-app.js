@@ -23,4 +23,5 @@ sayHi(names.john);
 sayHi(names.pete);
 sayHi(names.mary);
 */
-console.log(global);
+
+//console.log(global);

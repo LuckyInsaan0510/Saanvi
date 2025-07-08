@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(255, 192, 255);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin-block: 13px;
+}
+
+button {
+  background-color: rgb(225, 134, 255);
+  color: white;
+  border-color: rgb(165, 221, 255);
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  color: black;
+  background-color: rgb(188, 229, 255);
+}
+
+#bigger {
+  height: 150px;
+  width: 150px;
+}
+
+.headingDiv {
+  background-color: rgb(188, 229, 255);
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.paraClass {
+  background-color: royalblue;
+}

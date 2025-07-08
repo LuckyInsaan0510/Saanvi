@@ -225,3 +225,42 @@ new_arr.sort((a, b) => a - b); // Sort the array in ascending order
 console.log(new_arr);
 
 */
+
+/*
+
+let students = ["Avi", "Riya", "Saanvi", "Kabir", "Meera", "Riya"];
+students.splice(2, 0, "Aryan");
+students.splice(students.indexOf("Riya"), 1);
+console.log(students.includes("Kabir"));
+let topStudents = students.slice(0, 3);
+students.push("Zoya", "Ishaan");
+//OR students.splice(students.length,0,"Zoya", "Ishaan");
+// I don't know how to sort the list alphabetically
+// I don't know how to reverse the list
+console.log(students);
+console.log(topStudents);
+
+*/
+
+// let groceries = ["milk", "bread", "eggs", "milk", "butter", "eggs"];
+// let uniqueGroceries = [...new Set(groceries)];
+// console.log(uniqueGroceries.includes("cheese")); //false
+// uniqueGroceries.push("cheese");
+// uniqueGroceries.sort();
+// for (let item of uniqueGroceries) {
+//   for (let i = 0; i <= uniqueGroceries.length; i++) {
+//     console.log("Item #" + i + ": " + item);
+//   }
+// }
+// console.log(uniqueGroceries.length);
+
+// let words = ["Hello", "World", "Saanvi", "Mitsuri"];
+// let idx = 0;
+// for (word of words) {
+//   console.log(word.toUpperCase());
+// }
+
+// let names = ["   Jimin", "  Jungkook", " V ", "RM"];
+// for (let name of names) {
+//   console.log(name.trim());
+// }
